@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Chart */\r\n.chart__innner {\r\n    margin-top: 50px;\r\n    display: flex;\r\n}\r\n\r\n/* .chart {\r\n    height: 500px;\r\n    width: 1000px;\r\n} */\r\n\r\n/* Input day */\r\n\r\n.day {\r\n    margin: 200px auto 0;\r\n}\r\n\r\n.day__inner {\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.day__input {\r\n    width: 250px;\r\n    height: 40px;\r\n    font-size: 22px;\r\n    border: none;\r\n    outline: none;\r\n}\r\n\r\n.day__previous {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__previous:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__next {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__next:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__input__wrapper {\r\n    position: relative;\r\n    display: flex;\r\n    justify-content: space-around;\r\n}\r\n\r\n.enterBtn {\r\n    color: #000;\r\n    height: 40px;\r\n    font-size: 35px;\r\n    background-color: #fff;\r\n    transition: 0.2s linear ;\r\n}\r\n\r\n.enterBtn:hover {\r\n    cursor: pointer;\r\n    background-color: #004AF2;\r\n}\r\n\r\n.day__errorMessage {\r\n    position: absolute;\r\n    top: 50px;\r\n    margin: 0 auto;\r\n    color: #fff;\r\n    font-size: 18px;\r\n    /* font-weight: 600; */\r\n}\r\n\r\n/* Media */\r\n\r\n@media(max-width: 900px) {\r\n    .day {\r\n        margin-top: 100px;\r\n    }\r\n}\r\n\r\n@media(max-width: 450px) {\r\n\r\n    .day__input {\r\n        width: 200px;\r\n        font-size: 20px;\r\n    }\r\n}", "",{"version":3,"sources":["webpack://./src/styles/daily.css"],"names":[],"mappings":"AAAA,UAAU;AACV;IACI,gBAAgB;IAChB,aAAa;AACjB;;AAEA;;;GAGG;;AAEH,cAAc;;AAEd;IACI,oBAAoB;AACxB;;AAEA;IACI,cAAc;IACd,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,YAAY;IACZ,aAAa;AACjB;;AAEA;IACI,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,kBAAkB;IAClB,aAAa;IACb,6BAA6B;AACjC;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,eAAe;IACf,sBAAsB;IACtB,wBAAwB;AAC5B;;AAEA;IACI,eAAe;IACf,yBAAyB;AAC7B;;AAEA;IACI,kBAAkB;IAClB,SAAS;IACT,cAAc;IACd,WAAW;IACX,eAAe;IACf,sBAAsB;AAC1B;;AAEA,UAAU;;AAEV;IACI;QACI,iBAAiB;IACrB;AACJ;;AAEA;;IAEI;QACI,YAAY;QACZ,eAAe;IACnB;AACJ","sourcesContent":["/* Chart */\r\n.chart__innner {\r\n    margin-top: 50px;\r\n    display: flex;\r\n}\r\n\r\n/* .chart {\r\n    height: 500px;\r\n    width: 1000px;\r\n} */\r\n\r\n/* Input day */\r\n\r\n.day {\r\n    margin: 200px auto 0;\r\n}\r\n\r\n.day__inner {\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.day__input {\r\n    width: 250px;\r\n    height: 40px;\r\n    font-size: 22px;\r\n    border: none;\r\n    outline: none;\r\n}\r\n\r\n.day__previous {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__previous:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__next {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__next:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__input__wrapper {\r\n    position: relative;\r\n    display: flex;\r\n    justify-content: space-around;\r\n}\r\n\r\n.enterBtn {\r\n    color: #000;\r\n    height: 40px;\r\n    font-size: 35px;\r\n    background-color: #fff;\r\n    transition: 0.2s linear ;\r\n}\r\n\r\n.enterBtn:hover {\r\n    cursor: pointer;\r\n    background-color: #004AF2;\r\n}\r\n\r\n.day__errorMessage {\r\n    position: absolute;\r\n    top: 50px;\r\n    margin: 0 auto;\r\n    color: #fff;\r\n    font-size: 18px;\r\n    /* font-weight: 600; */\r\n}\r\n\r\n/* Media */\r\n\r\n@media(max-width: 900px) {\r\n    .day {\r\n        margin-top: 100px;\r\n    }\r\n}\r\n\r\n@media(max-width: 450px) {\r\n\r\n    .day__input {\r\n        width: 200px;\r\n        font-size: 20px;\r\n    }\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Chart */\r\n.chart__innner {\r\n    margin-top: 50px;\r\n    display: flex;\r\n}\r\n\r\n/* .chart {\r\n    height: 500px;\r\n    width: 1000px;\r\n} */\r\n\r\n/* Input day */\r\n\r\n.day {\r\n    margin: 100px auto 0;\r\n}\r\n\r\n.day__inner {\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.day__input {\r\n    width: 250px;\r\n    height: 40px;\r\n    font-size: 22px;\r\n    border: none;\r\n    outline: none;\r\n}\r\n\r\n.day__previous {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__previous:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__next {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__next:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__input__wrapper {\r\n    position: relative;\r\n    display: flex;\r\n    justify-content: space-around;\r\n}\r\n\r\n.enterBtn {\r\n    color: #000;\r\n    height: 40px;\r\n    font-size: 35px;\r\n    background-color: #fff;\r\n    transition: 0.2s linear ;\r\n}\r\n\r\n.enterBtn:hover {\r\n    cursor: pointer;\r\n    background-color: #004AF2;\r\n}\r\n\r\n.day__errorMessage {\r\n    position: absolute;\r\n    top: 50px;\r\n    margin: 0 auto;\r\n    color: #fff;\r\n    font-size: 18px;\r\n    /* font-weight: 600; */\r\n}\r\n\r\n/* Charts */\r\n\r\n.chartWrapper {\r\n    max-width: 100%;\r\n}\r\n\r\n.chart-container {\r\n    height:600px; \r\n    width: 1200px;\r\n}\r\n\r\n/* Media */\r\n\r\n@media (max-width: 1200px) {\r\n    .chartWrapper {\r\n        overflow-x: scroll;\r\n    }\r\n}\r\n/* @media(max-width: 900px) {\r\n    .day {\r\n        margin-top: 100px;\r\n    }\r\n} */\r\n\r\n@media(max-width: 450px) {\r\n    .chart__innner {\r\n        margin-top: 20px;\r\n    }\r\n\r\n    .day__input {\r\n        width: 200px;\r\n        font-size: 20px;\r\n    }\r\n}", "",{"version":3,"sources":["webpack://./src/styles/daily.css"],"names":[],"mappings":"AAAA,UAAU;AACV;IACI,gBAAgB;IAChB,aAAa;AACjB;;AAEA;;;GAGG;;AAEH,cAAc;;AAEd;IACI,oBAAoB;AACxB;;AAEA;IACI,cAAc;IACd,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,YAAY;IACZ,aAAa;AACjB;;AAEA;IACI,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,kBAAkB;IAClB,aAAa;IACb,6BAA6B;AACjC;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,eAAe;IACf,sBAAsB;IACtB,wBAAwB;AAC5B;;AAEA;IACI,eAAe;IACf,yBAAyB;AAC7B;;AAEA;IACI,kBAAkB;IAClB,SAAS;IACT,cAAc;IACd,WAAW;IACX,eAAe;IACf,sBAAsB;AAC1B;;AAEA,WAAW;;AAEX;IACI,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,aAAa;AACjB;;AAEA,UAAU;;AAEV;IACI;QACI,kBAAkB;IACtB;AACJ;AACA;;;;GAIG;;AAEH;IACI;QACI,gBAAgB;IACpB;;IAEA;QACI,YAAY;QACZ,eAAe;IACnB;AACJ","sourcesContent":["/* Chart */\r\n.chart__innner {\r\n    margin-top: 50px;\r\n    display: flex;\r\n}\r\n\r\n/* .chart {\r\n    height: 500px;\r\n    width: 1000px;\r\n} */\r\n\r\n/* Input day */\r\n\r\n.day {\r\n    margin: 100px auto 0;\r\n}\r\n\r\n.day__inner {\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.day__input {\r\n    width: 250px;\r\n    height: 40px;\r\n    font-size: 22px;\r\n    border: none;\r\n    outline: none;\r\n}\r\n\r\n.day__previous {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__previous:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__next {\r\n    color: #fff;\r\n    font-size: 40px;\r\n}\r\n\r\n.day__next:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.day__input__wrapper {\r\n    position: relative;\r\n    display: flex;\r\n    justify-content: space-around;\r\n}\r\n\r\n.enterBtn {\r\n    color: #000;\r\n    height: 40px;\r\n    font-size: 35px;\r\n    background-color: #fff;\r\n    transition: 0.2s linear ;\r\n}\r\n\r\n.enterBtn:hover {\r\n    cursor: pointer;\r\n    background-color: #004AF2;\r\n}\r\n\r\n.day__errorMessage {\r\n    position: absolute;\r\n    top: 50px;\r\n    margin: 0 auto;\r\n    color: #fff;\r\n    font-size: 18px;\r\n    /* font-weight: 600; */\r\n}\r\n\r\n/* Charts */\r\n\r\n.chartWrapper {\r\n    max-width: 100%;\r\n}\r\n\r\n.chart-container {\r\n    height:600px; \r\n    width: 1200px;\r\n}\r\n\r\n/* Media */\r\n\r\n@media (max-width: 1200px) {\r\n    .chartWrapper {\r\n        overflow-x: scroll;\r\n    }\r\n}\r\n/* @media(max-width: 900px) {\r\n    .day {\r\n        margin-top: 100px;\r\n    }\r\n} */\r\n\r\n@media(max-width: 450px) {\r\n    .chart__innner {\r\n        margin-top: 20px;\r\n    }\r\n\r\n    .day__input {\r\n        width: 200px;\r\n        font-size: 20px;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -82,6 +82,279 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/js/chartConfigs.js":
+/*!********************************!*\
+  !*** ./src/js/chartConfigs.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+
+
+let arrow = document.createElement ('img');
+arrow.src ='/src/images/arrow.png';
+
+const chartConfigs = () => {
+    // const tempChart = {
+    //     type: 'line',
+    //     color: '#fff',
+    //     data: {
+    //         labels: res.dailyTime,
+    //         datasets: [
+    //           {
+    //           label: 'Temperature',
+    //           data: res.dailyTemp,
+    //           fill: 'start',
+    //           backgroundColor: CHART_COLORS.blue,
+    //           borderColor: CHART_COLORS.red,
+    //           color: '#fff',
+    //           tension: 0.1
+    //         },
+    //         {
+    //           label: 'Moisture',
+    //           data: res.dailyMoi,
+    //           fill: 'start',
+    //           backgroundColor: CHART_COLORS.purple,
+    //           borderColor: CHART_COLORS.green,
+    //           color: '#fff',
+    //           tension: 0.1,
+    //           hidden: true
+    //         },
+    //         {
+    //           label: 'Wind',
+    //           data: res.dailyWind,
+    //           fill: 'start',
+    //           backgroundColor: CHART_COLORS.yellow,
+    //           borderColor: CHART_COLORS.orange,
+    //           color: '#fff',
+    //           tension: 0.1,
+    //           hidden: true,
+    //           pointHitRadius: 10,
+    //           rotation: res.dailyWindDir,
+    //           pointStyle: [arrow],
+    //         },
+    //         {
+    //           label: 'Pressure',
+    //           data: res.dailyPressure,
+    //           fill: 'start',
+    //           backgroundColor: CHART_COLORS.green,
+    //           borderColor: CHART_COLORS.orange,
+    //           color: '#fff',
+    //           tension: 0.1,
+    //           hidden: true
+    //         },
+    //       ]
+    //     },
+    //     options: {
+    //       // responsive: false,
+    //         maintainAspectRatio: false,
+    //             scales: {
+    //             y: {
+    //             beginAtZero: true,
+    //             grid: {
+    //                 display: false,
+    //             }
+    //             },
+    //             x: {
+    //             grid: {
+    //                 display: false,
+    //             }
+    //             }
+    //        },
+    //         plugins: {
+    //         subtitle: {
+    //             display: true,
+    //             text: day,
+    //             font: {
+    //                 size: 24
+    //             },
+    //         },
+    //         legend: {
+    //             labels: {
+    //                 // This more specific font property overrides the global property
+    //                 font: {
+    //                     size: 24
+    //                 }
+    //             },
+    //         }
+    //         },
+    //     }
+    // }
+    const moiChartConfig = {
+        type: 'line',
+        color: '#fff',
+        data: {
+            // labels: res.dailyTime,
+            datasets: [
+                {
+                    label: 'Moisture',
+                    fill: 'start',
+                    backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_0__.CHART_COLORS.purple,
+                    borderColor: _constants__WEBPACK_IMPORTED_MODULE_0__.CHART_COLORS.green,
+                    color: '#fff',
+                    tension: 0.1,
+                    // hidden: true
+                    pointHitRadius: 5,
+                },
+            ]
+        },
+        options: {
+          // responsive: false,
+            maintainAspectRatio: false,
+                scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        display: false,
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false,
+                    }
+                }
+           },
+            plugins: {
+            subtitle: {
+                display: true,
+                // text: day,
+                font: {
+                    size: 24
+                },
+            },
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 24
+                    }
+                },
+            }
+            },
+        }
+    }
+    const windChartConfig = {
+        type: 'line',
+        color: '#fff',
+        data: {
+            // labels: res.dailyTime,
+            datasets: [
+                {
+                    label: 'Wind',
+                    // data: res.dailyWind,
+                    fill: 'start',
+                    backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_0__.CHART_COLORS.yellow,
+                    borderColor: _constants__WEBPACK_IMPORTED_MODULE_0__.CHART_COLORS.orange,
+                    color: '#fff',
+                    tension: 0.1,
+                    // hidden: true,
+                    pointHitRadius: 10,
+                    // rotation: res.dailyWindDir,
+                    pointStyle: [arrow],
+                },
+          ]
+        },
+        options: {
+          // responsive: false,
+            maintainAspectRatio: false,
+                scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        display: false,
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false,
+                    }
+                }
+           },
+            plugins: {
+            subtitle: {
+                display: true,
+                // text: day,
+                font: {
+                    size: 24
+                },
+            },
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 24
+                    }
+                },
+            }
+            },
+        }
+    }
+    const pressureChartConfig = {
+        type: 'line',
+        color: '#fff',
+        data: {
+                // labels: res.dailyTime,
+            datasets: [
+                {
+                    label: 'Pressure',
+                    // data: res.dailyPressure,
+                    fill: 'start',
+                    backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_0__.CHART_COLORS.green,
+                    borderColor: _constants__WEBPACK_IMPORTED_MODULE_0__.CHART_COLORS.orange,
+                    color: '#fff',
+                    tension: 0.1,
+                    // hidden: true
+                    pointHitRadius: 5,
+                },
+           ]
+        },
+        options: {
+          // responsive: false,
+            maintainAspectRatio: false,
+                scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        display: false,
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false,
+                    }
+                }
+           },
+            plugins: {
+            subtitle: {
+                display: true,
+                // text: day,
+                font: {
+                    size: 24
+                },
+            },
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 24
+                    }
+                },
+            }
+            },
+        }
+    }
+
+    return {moiChartConfig, windChartConfig, pressureChartConfig}
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (chartConfigs);
+
+/***/ }),
+
 /***/ "./src/js/daily.js":
 /*!*************************!*\
   !*** ./src/js/daily.js ***!
@@ -90,10 +363,12 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./services */ "./src/js/services.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
-/* harmony import */ var chart_js_auto__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! chart.js/auto */ "./node_modules/chart.js/auto/auto.js");
-/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/main.css */ "./src/styles/main.css");
-/* harmony import */ var _styles_daily_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/daily.css */ "./src/styles/daily.css");
+/* harmony import */ var _chartConfigs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./chartConfigs */ "./src/js/chartConfigs.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var chart_js_auto__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! chart.js/auto */ "./node_modules/chart.js/auto/auto.js");
+/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/main.css */ "./src/styles/main.css");
+/* harmony import */ var _styles_daily_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/daily.css */ "./src/styles/daily.css");
+
 
 
 
@@ -108,6 +383,9 @@ const inputCity = document.querySelector('.input-city'),
       btnChangeLocation = document.querySelector('.location__change__btn'),
       btnGetLocation = document.querySelector('.location__get__btn'),
       myChart = document.getElementById('myChart'),
+      myChartMoi = document.getElementById('myChartMoi'),
+      myChartWind = document.getElementById('myChartWind'),
+      myChartPressure = document.getElementById('myChartPressure'),
       inputDay = document.querySelector('.day__input'),
       inputDateBtn = document.querySelector('.enterBtn'),
       dayErrorMessage = document.querySelector('.day__errorMessage'),
@@ -123,7 +401,9 @@ burger.addEventListener('click', () => {
 
 
 const {getLocation, getCityLocation, getWeather} = (0,_services__WEBPACK_IMPORTED_MODULE_0__["default"])();
+const {moiChartConfig, windChartConfig, pressureChartConfig} = (0,_chartConfigs__WEBPACK_IMPORTED_MODULE_1__["default"])();
 
+console.log(moiChartConfig)
 
 getLocation().then((res) => {
     console.log(res)
@@ -308,9 +588,14 @@ arrow.src ='/src/images/arrow.png';
 // Chart.defaults.plugins.title.color = '#fff';
 // Chart.defaults.plugins.legend.color = '#fff';
 // Chart.defaults.backgroundColor = '#fff';
-chart_js_auto__WEBPACK_IMPORTED_MODULE_2__["default"].defaults.color = '#fff';
-chart_js_auto__WEBPACK_IMPORTED_MODULE_2__["default"].defaults.font.size = 16;
+chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"].defaults.color = '#fff';
+chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"].defaults.font.size = 16;
+
 let chart;
+let moiChart;
+let windChart;
+let pressureChart;
+
 const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
     getWeather(lat, lon, day).then((res) => {
         const chartConfig = {
@@ -323,8 +608,8 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
                 label: 'Temperature',
                 data: res.dailyTemp,
                 fill: 'start',
-                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.blue,
-                borderColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.red,
+                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.blue,
+                borderColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.red,
                 color: '#fff',
                 tension: 0.1
               },
@@ -332,8 +617,8 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
                 label: 'Moisture',
                 data: res.dailyMoi,
                 fill: 'start',
-                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.purple,
-                borderColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.green,
+                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.purple,
+                borderColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.green,
                 color: '#fff',
                 tension: 0.1,
                 hidden: true
@@ -342,8 +627,8 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
                 label: 'Wind',
                 data: res.dailyWind,
                 fill: 'start',
-                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.yellow,
-                borderColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.orange,
+                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.yellow,
+                borderColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.orange,
                 color: '#fff',
                 tension: 0.1,
                 hidden: true,
@@ -355,8 +640,8 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
                 label: 'Pressure',
                 data: res.dailyPressure,
                 fill: 'start',
-                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.green,
-                borderColor: _constants__WEBPACK_IMPORTED_MODULE_1__.CHART_COLORS.orange,
+                backgroundColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.green,
+                borderColor: _constants__WEBPACK_IMPORTED_MODULE_2__.CHART_COLORS.orange,
                 color: '#fff',
                 tension: 0.1,
                 hidden: true
@@ -364,6 +649,8 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
             ]
             },
           options: {
+            // responsive: false,
+            maintainAspectRatio: false,
             scales: {
               y: {
                 beginAtZero: true,
@@ -394,19 +681,25 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
                   },
               }
             },
+            
           }
         }
 
         if (document.documentElement.clientWidth <= 600) {
-          chartConfig.options.plugins.subtitle.font.size = 12;
-          chartConfig.options.plugins.legend.labels.font.size = 12;
-          chart_js_auto__WEBPACK_IMPORTED_MODULE_2__["default"].defaults.font.size = 10;
+          // chartConfig.options.plugins.subtitle.font.size = 12;
+          // chartConfig.options.plugins.legend.labels.font.size = 12;
+          // Chart.defaults.options.plugins.subtitle.font.size = 12;
+          // Chart.defaults.options.plugins.legend.labels.font.size = 12;
+          chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"].defaults.font.size = 10;
+          const chartContainer = document.querySelectorAll('.chart-container');
+          chartContainer.forEach(el => {
+            el.style.cssText = 'height:300px; width: 800px;'
+          })
         }
 
         if (!chart) {
-          chart = new chart_js_auto__WEBPACK_IMPORTED_MODULE_2__["default"](myChart, chartConfig);
+          chart = new chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"](myChart, chartConfig);
         } else {
-          {
             console.log(chart)
             function addData(chart, label, data, day) {
               chart.data.labels = label;
@@ -416,7 +709,56 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
             }
             addData(chart, res.dailyTime, chartConfig.data.datasets, day);
         }
-      }
+        
+        if (!moiChart) {
+          moiChartConfig.data.labels = res.dailyTime;
+          moiChartConfig.data.datasets[0].data =  res.dailyMoi;
+          moiChartConfig.options.plugins.subtitle.text = day;
+          moiChart = new chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"](myChartMoi, moiChartConfig);
+        } else {
+            console.log(chart)
+            function addData(chart, label, data, day) {
+              chart.data.labels = label;
+              chart.data.datasets[0].data = data;
+              chart.options.plugins.subtitle.text = day;
+              chart.update('active');
+            }
+            addData(moiChart, res.dailyTime, res.dailyMoi, day);
+        }
+
+        if (!windChart) {
+          windChartConfig.data.labels = res.dailyTime;
+          windChartConfig.data.datasets[0].data = res.dailyWind;
+          windChartConfig.data.datasets[0].rotation = res.dailyWindDir
+          windChartConfig.options.plugins.subtitle.text = day;
+          moiChart = new chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"](myChartWind, windChartConfig);
+        } else {
+            console.log(chart)
+            function addData(chart, label, data, rotation, day) {
+              chart.data.labels = label;
+              chart.data.datasets[0].data = data;
+              chart.data.datasets[0].rotation = rotation;
+              chart.options.plugins.subtitle.text = day;
+              chart.update('active');
+            }
+            addData(windChart, res.dailyTime, res.dailyWind, res.dailyWindDir, day);
+        }
+
+        if (!pressureChart) {
+          pressureChartConfig.data.labels = res.dailyTime;
+          pressureChartConfig.data.datasets[0].data =  res.dailyPressure;
+          pressureChartConfig.options.plugins.subtitle.text = day;
+          pressureChart = new chart_js_auto__WEBPACK_IMPORTED_MODULE_3__["default"](myChartPressure, pressureChartConfig);
+        } else {
+            console.log(chart)
+            function addData(chart, label, data, day) {
+              chart.data.labels = label;
+              chart.data.datasets[0].data = data;
+              chart.options.plugins.subtitle.text = day;
+              chart.update('active');
+            }
+            addData(pressureChart, res.dailyTime, res.dailyPressure, day);
+        }
     })
 
 
@@ -598,4 +940,4 @@ const getWeatherOnCity = (lat, lon, day = getCurrentDate()) => {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=daily.7b5d7a57cd7bc60d874f.js.map
+//# sourceMappingURL=daily.284b8e97f9b19c6d1fa6.js.map

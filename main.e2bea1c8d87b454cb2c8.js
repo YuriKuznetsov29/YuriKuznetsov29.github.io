@@ -528,6 +528,7 @@ const getWeatherOnCity = (lat, lon) => {
 // Get loacation
 getLocation().then((res) => {
     if (!localStorage.getItem('city')) {
+        console.log(res)
         setLocationToLocalStorage(res.city, res.lat, res.lon);
         city.textContent = res.city;
         yourLocation.textContent = `Current location: ${res.city}`;
@@ -816,4 +817,4 @@ const clearFindData = () => {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.da8940d196e562f77751.js.map
+//# sourceMappingURL=main.e2bea1c8d87b454cb2c8.js.map
